@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "308504674412",
+    "project_id": "skypeclone-3d2eb",
+    "storage_bucket": "skypeclone-3d2eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308504674412:android:4bfe1b49ccdeef80631849",
+        "android_client_info": {
+          "package_name": "com.noor.yasser.ps.skype_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308504674412-6mnpph0enobrdeunkcsad4jcm75mvsln.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCv6knEm1lsDqqmKRwWmZQ8pWY2qa7AJL8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "308504674412-6mnpph0enobrdeunkcsad4jcm75mvsln.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
