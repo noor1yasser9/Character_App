@@ -1,17 +1,20 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_breaking/app_router.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(BreakingBadApp(
+      appRouter: AppRouter(),
+    ));
 
-class MyApp extends StatefulWidget {
-  const MyApp() : super();
+class BreakingBadApp extends StatelessWidget {
+  final AppRouter appRouter;
 
-  @override
-  _MyAppState createState() => _MyAppState();
-}
+  const BreakingBadApp({Key? key, required this.appRouter}) : super(key: key);
 
-class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      onGenerateRoute: appRouter.generateRoute,
+    );
   }
 }
