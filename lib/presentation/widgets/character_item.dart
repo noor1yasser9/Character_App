@@ -14,7 +14,7 @@ class CharacterItem extends StatelessWidget {
       margin: EdgeInsetsDirectional.fromSTEB(8, 8, 8, 8),
       padding: EdgeInsetsDirectional.fromSTEB(4, 4, 4, 4),
       decoration: BoxDecoration(
-        color: MyColors.dark_100,
+        color: MyColors.dark,
         borderRadius: BorderRadius.circular(8),
       ),
       child: InkWell(
